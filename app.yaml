@@ -1,0 +1,18 @@
+runtime: python27 # versao do python a ser utilizada
+api_version: 1 # versao do aplicativo
+threadsafe: yes # Habilita o uso de multiplas threads (Recomendado para aplicações web)
+service: default # Nome do servico
+
+default_expiration: "1s" # Tempo para que os dados salvos em cache expirem
+
+handlers: # Define as rotas e os scripts que irao gerencia-las
+- url: /
+  static_files: frontend/index.html
+  upload: index.html
+
+- url: /api/.*
+  script: main.app
+
+- url: /(.*)
+  static_files: frontend/\1
+  upload: frontend/(.*)
