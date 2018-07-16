@@ -14,5 +14,10 @@ mv google-cloud-sdk ~/
 cd
 ./google-cloud-sdk/install.sh (siga as dicas que o instalador dará)
 bash
-gcloud init (Siga as dicas que serão dadas pelo inicializador)  
+gcloud init (Siga as dicas que serão dadas pelo inicializador)
 ```
+
+## Inicializando aplicação
+#### Faça um clone deste repositório ou crie uma aplicação em appengine para prosseguir o tutorial
+* No terminal, navegue até o diretório do seu projeto onde está localizado o arquivo app.yaml
+* digite o comando ```dev_appserver.py .```
