@@ -22,4 +22,4 @@ gcloud init (Siga as dicas que serão dadas pelo inicializador)
 * No terminal, navegue até o diretório do seu projeto onde está localizado o arquivo app.yaml
 * digite o comando ```dev_appserver.py .```
 
-> Para um mais informações leia a documentação disponível em [https://cloud.google.com/appengine/docs/standard/python](https://cloud.google.com/appengine/docs/standard/python)
+> Para um mais informações leia a documentação disponível em: [https://cloud.google.com/appengine/docs/standard/python](https://cloud.google.com/appengine/docs/standard/python)
