@@ -1,4 +1,5 @@
-runtime: python27 # versão do python a ser utilizada
+runtime: python-compat # versão do python a ser utilizada (esta versão é a 2.7, a versão 3 por enquanto não é suportada)
+env: flex # Tipo do ambiente da aplicação, pode ser standard ou flex
 api_version: 1 # versão do aplicativo
 threadsafe: yes # Habilita o uso de multiplas threads (Recomendado para aplicações web)
 service: default # Nome do servico
